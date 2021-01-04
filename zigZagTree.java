@@ -13,6 +13,8 @@
  *     }
  * }
  */
+/* Two stack solution is also cool */ 
+/*First fill 1 stack, then fill the second stack with the first stack*/
 class Solution {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> list = new ArrayList<>();
